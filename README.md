@@ -1,16 +1,18 @@
 # React Routing
 
-A React project demonstrating client-side routing with React Router: multiple pages, navigation links, and basic route configuration.
-
+A React project demonstrating client-side routing with React Router: multiple pages, navigation links, and basic route configuration — including a simple **auth flow** and **protected routes**.
 ## Features
 
 - Multi-page SPA navigation
 - Declarative routes
-- 404 / “Not Found” route (optional)
 - Nested routes and dynamic routes
+- **Authentication**
+    - Login / logout
+    - Route protection
+    - Redirect to login when unauthenticated
+    - Automatic logout after token expiration
 
 ## Tech Stack
-
 - React
 - React Router
 - Node.js + npm
